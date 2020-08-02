@@ -11,16 +11,15 @@ The MVC version talks directly to Entity Framework (but also has the CUD parts o
 
 Both versions are asynchronous and the React version uses promises.
 
-**USE AT YOUR OWN RISK. NO WARRANTY IS PROVIDED.**
-
 ## Installation
+    Load the React or Mvc solution into Visual Studio and build it. 
+    Then use IIS Express to load the application.
 
-    Load the React or Mvc solution into Visual Studio and build it. Then use IIS Express to load the application.
-    Everything should be handled by the application.
-    There will be a long delay the first time the website is launched due to the initial loading of 100,000 records
-    into the SQLite database.
+    There will be a long delay the first time the website is launched.
+    This is due to the initial loading of 100,000 records into the SQLite database.
 
-    Using the standard 'dotnet build' and 'dotnet run' commands should also work and will show more log messages.
+    Using the standard 'dotnet build' and 'dotnet run' commands will also work
+    and will show more log messages.
 
 ## Usage
-    Access on localhost:5000 when running or via IIS Express.
+    Access on localhost:5000 when running via npm, or just use IIS Express.
